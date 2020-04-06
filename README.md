@@ -11,7 +11,7 @@ k: quantidade de clusters. Por padrão são 2
 
 import pandas as pd <br>
 import numpy as np <br>
-import KMeans <br>
+from KMeans import KMeans <br>
 
 dataset = pd.read_csv('iris.csv') # Leitura do CSV <br>
 X = np.array(dataset).tolist() # Converter dataset em list <br>
