@@ -14,7 +14,7 @@ import numpy as np <br>
 import KMeans <br>
 
 dataset = pd.read_csv('iris.csv') # Leitura do CSV <br>
-X = np.array(df).tolist() # Converter dataset em list <br>
+X = np.array(dataset).tolist() # Converter dataset em list <br>
 kmeans = KMeans(dados=X, k=3) <br>
 
 kmeans.train() <br>
