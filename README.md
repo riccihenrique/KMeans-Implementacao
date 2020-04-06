@@ -9,7 +9,7 @@ k: quantidade de clusters. Por padrão são 2
 ### Exemplo usando Pandas e CSV
 
 
-import pandas as pd \n
+import pandas as pd <br>
 import KMeans
 
 dataset = pd.read_csv('iris.csv') # Leitura do CSV\n
