@@ -1,7 +1,20 @@
-# K-Means
-<<<<<<< HEAD
 # KMeans-Implementacao
-=======
 
-Algoritmo de clusterização de dados feito em Python
->>>>>>> 87d5bb18698e305105600a8d3c074da89a994da0
+Implementação do algoritmo K-Means em Python
+
+### Parâmetros
+dados: DataSet em formato list
+k: quantidade de clusters. Por padrão são 2
+
+### Exemplo usando Pandas e CSV
+
+
+import pandas as pd
+import KMeans
+
+dataset = pd.read_csv('iris.csv') # Leitura do CSV
+X = np.array(df).tolist() # Converter dataset em list
+kmeans = KMeans(dados=X, k=3)
+
+kmeans.train()
+print(kmeans.labels())
