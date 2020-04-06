@@ -1,6 +1,6 @@
-class KMeans(object):
-    import math
-    
+import math
+
+class KMeans(object):    
     def __init__(self, dados, k=2):
         self.k = k
         self.dados = dados
