@@ -1,4 +1,4 @@
-# KMeans-Implementacao
+# KMeans-Implementação
 
 Implementação do algoritmo K-Means em Python
 
